@@ -68,37 +68,3 @@ Then('Factories field should be updated', () => {
     cookieTestPage.validateBuyFactories()
 
 })
-
-/*
-/// <reference types="cypress" />
-
-import Login from './loginPage'
-import {Given, When, Then, And} from 'cypress-cucumber-preprocessor/steps'
-import loginPage from './loginPage'
-
-//const lp= new LoginPage()
-
-Given('I go to CCP website', () =>{
-    loginPage.loadLoginPage()
-    
-}
-)
-
-When('I login as', (datatable) =>{
-    
-    datatable.hashes().forEach(element => {
-        
-        loginPage.fillUsername(element.username)
-        loginPage.fillPassword(element.password)
-        loginPage.clickLogin()
-    });
-    
-}
-)
-
-Then('I see home page', () =>{
-    
-    loginPage.titlePage()
-}
-)
-*/
